@@ -1,3 +1,6 @@
+process.env.BABEL_ENV = 'development';
+process.env.NODE_ENV = 'development';
+
 const fork = require('child_process').fork;
 const Launcher = require('@wdio/cli').default
 

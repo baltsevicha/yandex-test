@@ -5,7 +5,7 @@ import StoryBookStepper from 'TESTS/Steppers/StoryBookStepper';
 import App from 'TESTS/PageObject/App';
 
 describe('App', () => {
-    it('test', async () => {
+    it('test', () => {
         StoryBookStepper.openPageById('app', 'test');
         ElementManager.waitForElement(App.container);
 
